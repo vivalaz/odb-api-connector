@@ -1,0 +1,31 @@
+{
+    "name": "vivalaz/odb-api-connector",
+    "description": "A PHP package, that provides all OpenDataBot API endpoints in one place.",
+    "keywords": [
+        "php",
+        "opendatabot",
+        "ukraine",
+        "big data",
+        "api",
+        "grinevich",
+        "vivalaz"
+    ],
+    "homepage": "https://github.com/vivalaz/odb-api-connector",
+    "minimum-stability": "dev",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "vivalaz",
+            "email": "vitaliy.grinevich1@gmail.com",
+            "homepage": "https://www.linkedin.com/in/grinevichvit/"
+        }
+    ],
+    "require": {
+        "ixudra/curl": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vivalaz\\OdbApiConnector\\": "src/"
+        }
+    }
+}
